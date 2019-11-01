@@ -209,3 +209,68 @@ nav a{
     text-decoration: none;
     color: black;
 }
+
+
+
+
+/* ======= ABOUT PAGE ======= */
+
+
+.about-section{
+    border-bottom: 2px dotted black;
+    margin-bottom: 20px;
+}
+
+.about-section p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.about-section h1{
+    margin-left: 20px;
+}
+
+
+.middle-section{
+    margin-left:20px;
+}
+
+.strategy-first-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.strategy-second-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 15px 0 15px;
+}
+
+
+.strategy{
+    border-bottom: 2px dotted gray;
+    margin-right: 25px;
+}
+
+.how-we-work{
+    border-bottom: 2px dotted gray;
+    margin-right: 25px;
+}
+
+.places-we-work{
+    border-bottom: 2px dotted gray;
+    margin-left: -5px;
+}
+
+.collaboration{
+    border-bottom: 2px dotted gray;
+    margin-left: 5px; 
+}
