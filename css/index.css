@@ -242,7 +242,7 @@ nav a{
 
 .strategy-second-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 50px;
 }
 
@@ -252,6 +252,7 @@ button{
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 0 15px 0 15px;
+    cursor: pointer;
 }
 
 
@@ -266,11 +267,27 @@ button{
 }
 
 .places-we-work{
-    border-bottom: 2px dotted gray;
+    
     margin-left: -5px;
 }
 
+.inner{
+    border-bottom: 2px dotted black;
+    margin-right:20px;
+}
+
 .collaboration{
-    border-bottom: 2px dotted gray;
+    border-bottom: 2px dotted black;
     margin-left: 5px; 
+}
+
+
+
+
+
+
+.work-together-section{
+    margin-left:20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
