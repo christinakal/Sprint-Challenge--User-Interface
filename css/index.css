@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ----- HEADER ----- */
+
+.header{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.img-nav-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+nav{
+    word-spacing: 70px;
+    margin-left:80px;
+    margin-right: 20px;    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
