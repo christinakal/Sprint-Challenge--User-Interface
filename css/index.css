@@ -112,6 +112,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +183,111 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ----- HEADER ----- */
+
+.header{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.img-nav-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+nav{
+    word-spacing: 70px;
+    margin-left:80px;
+    margin-right: 20px;    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* ======= ABOUT PAGE ======= */
+
+
+.about-section{
+    border-bottom: 2px dotted black;
+    margin-bottom: 20px;
+}
+
+.about-section p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.about-section h1{
+    margin-left: 20px;
+}
+
+
+.middle-section{
+    margin-left:20px;
+}
+
+.strategy-first-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.strategy-second-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}
+
+
+.strategy{
+    border-bottom: 2px dotted gray;
+    margin-right: 25px;
+}
+
+.how-we-work{
+    border-bottom: 2px dotted gray;
+    margin-right: 25px;
+}
+
+.places-we-work{
+    
+    margin-left: -5px;
+}
+
+.inner{
+    border-bottom: 2px dotted black;
+    margin-right:20px;
+}
+
+.collaboration{
+    border-bottom: 2px dotted black;
+    margin-left: 5px; 
+}
+
+
+
+
+
+
+.work-together-section{
+    margin-left:20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
